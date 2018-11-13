@@ -8,6 +8,34 @@ $primary-text-color: #212121;
 $secondary-text-color: #757575;
 $divider-color: #BDBDBD;
 
+/* Responsive */ 
+@media only screen and (max-width: 400px) {
+	.mzk-logo {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	header h1 {
+		padding: 0 20px;
+		line-height: 1.5em;
+	}
+
+	[class^="col-"] {
+		width: 100%;
+	}
+
+	div.ci {
+		margin-bottom: 33px !important;
+	}
+
+	div.maintainer,
+	a.maintainer {
+		width: auto;
+	}
+}
+
 /* Basic styles */
 
 html, body {
@@ -93,7 +121,7 @@ footer {
 
 
 div.ci {
-	width: 100ù;
+	width: 100%;
 	height: auto;
 	border-radius: 5px;
 	background-color: rgb(225, 225, 225);
