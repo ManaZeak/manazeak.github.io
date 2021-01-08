@@ -1,162 +1,174 @@
-<!DOCTYPE html> <!-- HTML5 -->
-
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-	<head>
-			<title>ManaZeak Organization</title>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">			
-			<meta name="description" content="ManaZeak Organization propose an open source software to host and enjoy your musical library with friends.">
-			<link rel="icon" type="image/png" href="./img/manazeak-logo.png">
-			<link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css">			
-			<link rel="stylesheet" type="text/css" href="./css/messcss.min.css">
-			<link rel="stylesheet" type="text/css" href="./css/style.css">
-	</head>
-	<body>		
-		<a href="https://github.com/ManaZeak/ManaZeak" target="_blank"><img src="./img/manazeak-logo.png" alt="ManaZeak" class="mzk-logo" width="64" height="64" style="position:absolute;top:33px;left:33px;"></a>		
-		<a href="https://github.com/ManaZeak/ManaZeak" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>		
-		<header>
-			<img src="./img/manazeak-text.svg" alt="ManaZeak">
-			<h1>Fed up with ads when listening to music online ?</h1>
-			<h3>You are not alone!</h3>
-		</header>
-		<div class="row">
-			<div class="col-six">
-				<p class="lead paragraph">ManaZeak is a self-hostable web application that is based on your musical library. Share it with friends, with no restrictions and enjoy together your exquisite array of musical genius!</p>
-				<p class="paragraph">ManaZeak can be deployed in a few minutes thanks to docker. For further information on how to get started with it, refer to the <a href="https://github.com/ManaZeak/ManaZeak/wiki" target="_blank">repository wiki</a>. Currently in beta version, ManaZeak features a music player, a library manager, a implementation of the <a href="https://cratoo.de/amarok/ismir-crc.pdf" target="_blank">moodbar</a> visualization, a user system and two different views (so far).</p>
-			</div>
+<head>
+		<title>ManaZeak Organization</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<meta name="description" content="ManaZeak Organization propose an open source software to host and enjoy your musical library with friends.">
+		<link rel="icon" type="image/png" href="./img/manazeak-logo.png">
+		<link rel="stylesheet" type="text/css" href="./css/fontawesome.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/messcss.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<a href="https://github.com/ManaZeak" target="_blank" rel="noreferrer noopener"><img src="./img/manazeak-logo.png" alt="ManaZeak" class="mzk-logo" width="64" height="64" style="position:absolute;top:33px;right:33px;"></a>
+	<header>
+		<img src="./img/manazeak-text.svg" alt="ManaZeak">
+		<h1>Fed up with ads when listening to music online ?</h1>
+		<h3>You are not alone!</h3>
+	</header>
+	<div class="row">
+		<div class="col-six">
+			<p class="lead center">ManaZeak is a self-hostable web application that is based on your musical library.<br>Share it with friends, with no restrictions and enjoy together your exquisite array of musical genius!</p>
+			<p class="paragraph">It features a solid user system, based on invitation codes from already registered user so you have control over who has access to your instance. Users can then browse the library with several views (per artists, albums, years, genre, labels etc.). It also implement <a href="./doc/Gavin-Wood,-Simon-O'Keefe-Moodbar.pdf">moodbars</a> to have a great visualization of each track's style.</p>
+			<p class="paragraph">Based on a clean, well-tagged library, this software offers several views that takes the most of those data to give the best experience. For more information, check the <a href="https://github.com/ManaZeak/ManaZeak/wiki/%5BADM%5D-Naming-convention" target="_blank" rel="noreferrer noopener">audio naming convention</a> to understand how to prepare your files.</p>
+			<p class="paragraph">This project is still under development, and a lot of essential features are still on their way to this platform ; audio visualizers, playlists, smart suggestions, advanced sorting, musicology, online editing etc., so keep on touch!</p>
 		</div>
-		<div class="row">
-			<div class="same-col">
-				<img src="./img/mzk-1.png" class="mzk-screen" alt="ManaZeak"><br>
-				<p><strong>ManaZeak user interface in the Artists view</strong></p>
-				<hr style="margin-top:40px;">
-			</div>			
+	</div>
+	<div class="row">
+		<div class="same-col">
+			<img src="./img/mzk-1.png" class="mzk-screen" alt="ManaZeak"><br>
 		</div>
-		<div class="row" style="margin-bottom: 0;">
-			<div class="col-six">
-				<h2>About ManaZeak</h2>
-				<p><a href="https://travis-ci.org/ManaZeak/ManaZeak"><img src="https://travis-ci.org/ManaZeak/ManaZeak.svg?branch=master" alt="Travis Status"></a>&nbsp;&nbsp;<a href="https://app.fossa.io/projects/custom%2B6472%2Fgithub.com%2FManaZeak%2FManaZeak?ref=badge_shield"><img src="https://app.fossa.io/api/projects/custom%2B6472%2Fgithub.com%2FManaZeak%2FManaZeak.svg?type=shield"  alt="FOSSA Status"/></a>&nbsp;&nbsp;<a href="https://sonarcloud.io/dashboard?id=ManaZeak" target="_blank"><img src="https://sonarcloud.io/api/project_badges/measure?branch=front&project=ManaZeak&metric=alert_status" alt="Sonar Status"></a></p>				
-				<p class="paragraph">Because we want to provide you with the best software we can, we use several tools to perform routines that ensure the app match our quality standards. Use the following cards to check the different services we use for our continuous integration workflow. Also, if you want to know what's coming next in ManaZeak, check out the Trello dashboard that lists all the upcoming features.</p><br>
-			</div>
+		<div class="same-col">
+			<img src="./img/mzk-2.png" class="mzk-screen" alt="ManaZeak"><br>
 		</div>
-		<div class="row">
-			<div class="col-two">
-				<div class="ci">					
-					<a href="https://travis-ci.org/ManaZeak/ManaZeak" target="_blank"><img src="./img/travisci-logo.png" alt="TravisCI"></a>	
+	</div>
+	<div class="row">
+		<div class="col-six">
+			<h3>Project maintainers</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-three">
+			<div class="maintainer">
+				<a href="https://github.com/ArthurBeaulieu" target="_blank" rel="noreferrer noopener"><img src="https://avatars2.githubusercontent.com/u/24597000?s=460&v=4" alt="ArthurBeaulieu"></a>
+				<div class="maintainer-info">
+					<p><strong>Arthur Beaulieu</strong> – Maintainer<br>aka <em>Messmaker</em></p>
+					<p>Frontend developer</p>
+					<p><a href="mailto:arthur.beaulieu@manazeak.org" style="text-decoration:none;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;<em>arthur.beaulieu@manazeak.org</em></a></p>
 				</div>
 			</div>
-			<div class="col-two">
-				<div class="ci">					
-					<a href="https://sonarcloud.io/dashboard?id=ManaZeak" target="_blank"><img src="./img/sonarqube-logo.png" alt="SonarQube"></a>	
-				</div>
-			</div>
-			<div class="col-two">
-				<div class="ci">					
-					<a href="https://app.fossa.io/projects/custom%2B6472%2Fgithub.com%2FManaZeak%2FManaZeak/refs/branch/HEAD/3ccdadd6993551fa4cea6082f637e186537fc2e6" target="_blank"><img src="./img/fossa-logo.png" alt="Fossa"></a>
-				</div>
-			</div>
-			<div class="col-two">
-				<div class="ci">					
-					<a href="https://trello.com/b/Qtl9Uxit/manazeak-project" target="_blank"><img src="./img/trello-logo.png" alt="Trello"></a>	
-				</div>
-			</div>									
 		</div>
-		<div class="row">
-			<div class="col-six">
-				<h3>History</h3>
-				<p class="paragraph">In September 2017, ManaZeak was born as a graduation project, at ESIEA Paris (a top French engineering school). By the end of this project in February 2018, we decided to make it a real open source project so ManaZeak could grow further. Several people were involved in the journey and helped us out on miscellaneous subjects, as you can see on the following cards.</p>
-				<p class="paragraph">ManaZeak was getting more and more features, but despite our efforts, we had to <strong>Ctrl + A + Del</strong> the frontend codebase as summer 2018 was arising: the code architecture was not made to handle all of our ideas properly. We restarted almost from scratch, with a better vision of how we had to write our logic, and here we are today: not quite as many features as we had in the past, but far more efficient and with a much cleaner UI. Now that the frontend code base has been cleansed, it's time to refactor the backend refactor for the same reasons! We expect to get the same level of features as for the ManaZeak alpha version when we will reach the Beta 0.3 version : Make Mzk Great Again. Keep an eye out to see what's coming!</p>			
+		<div class="col-three">
+			<div class="maintainer">
+				<a href="https://github.com/Squadella" target="_blank" rel="noreferrer noopener"><img src="https://avatars3.githubusercontent.com/u/10008695?s=400&v=4" alt="SquadeSauce"></a>
+				<div class="maintainer-info">
+					<p><strong>Pierre Bouniol</strong> – Maintainer<br>aka <em>Squadella</em></p>
+					<p>Backend developer</p>
+					<p><a href="mailto:pierre.bouniol@manazeak.org" style="text-decoration:none;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;<em>pierre.bouniol@manazeak.org</em></a></p>
+				</div>
 			</div>
-		</div>	
-		<div class="row">
-			<div class="col-six">
-				<h3>Project maintainers</h3>	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-six">
+			<h3>Contributors</h3>
+		</div>
+	</div>
+	<div class="row" style="margin-bottom: 0;">
+		<div class="col-three">
+			<a href="https://github.com/Oxydiz" class="maintainer" target="_blank" rel="noreferrer noopener" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/9464446?s=400&v=4" alt="Valentin">
+				<div class="maintainer-info">
+					<p><strong>Valentin Peiro</strong><br>aka <em>Oxydiz</em></p>
+					<p>Frontend developer</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-three">
+			<a href="https://github.com/Syncrossus" class="maintainer" target="_blank" rel="noreferrer noopener" style="text-decoration:none;"><img src="https://avatars2.githubusercontent.com/u/12431317?s=400&v=4" alt="Syncrossus">
+				<div class="maintainer-info">
+					<p><strong>Guilhem Piat</strong><br>aka <em>Syncrossus</em></p>
+					<p>Scripting</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-three">
+			<a href="https://github.com/Belash" class="maintainer" target="_blank" rel="noreferrer noopener" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/10118583?s=400&v=4" alt="PB">
+				<div class="maintainer-info">
+					<p><strong>Pierre-Balthazar Donadieu de Lavit</strong><br>aka <em>Belash</em></p>
+					<p>Docker</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-three">
+			<a href="https://github.com/avignat" class="maintainer" target="_blank" rel="noreferrer noopener" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/1545450?s=400&v=4" alt="Armand">
+				<div class="maintainer-info">
+					<p><strong>Armand Vignat</strong><br>aka <em>p1rox</em></p>
+					<p>Docker</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-three">
+			<a href="https://github.com/Asiberus" class="maintainer" target="_blank" rel="noreferrer noopener" style="text-decoration:none;"><img src="https://avatars2.githubusercontent.com/u/23448367?s=400&v=4" alt="Raph">
+				<div class="maintainer-info">
+					<p><strong>Raphaël Beekmann</strong><br>aka <em>Asiberus</em></p>
+					<p>Frontend developer</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-three">
+			<a href="https://github.com/Yoroitchi" class="maintainer" target="_blank" rel="noreferrer noopener" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/17288981?s=400&v=4" alt="Yoro">
+				<div class="maintainer-info">
+					<p><strong>Erwan Le Guern</strong><br>aka <em>Yoroïtchi</em></p>
+					<p>Comrade</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="same-col">
+			<hr style="margin-top:40px;">
+		</div>
+	</div>
+	<div class="row" style="margin-bottom: 0;">
+		<div class="col-six">
+			<h2>About ManaZeak</h2>
+			<p>
+				<a href="https://github.com/ManaZeak/ManaZeak/blob/master/LICENSE.md" target="_blank" rel="noreferrer noopener"><img src="https://badgen.net/badge/verison/1.0.1/blue" alt="Version"></a>&nbsp;&nbsp;
+				<a href="https://github.com/ManaZeak/ManaZeak/blob/master/LICENSE.md" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/github/license/ManaZeak/ManaZeak.svg" alt="License"></a>&nbsp;&nbsp;
+				<a href="https://travis-ci.org/ManaZeak/ManaZeak" target="_blank" rel="noreferrer noopener"><img src="https://github.com/ManaZeak/ManaZeak/workflows/build/badge.svg" alt="GHAction Status"></a>&nbsp;&nbsp;
+				<a href="https://sonarcloud.io/dashboard?id=ManaZeak" target="_blank" rel="noreferrer noopener"><img src="https://sonarcloud.io/api/project_badges/measure?project=ManaZeak&metric=alert_status" alt="Sonar Status"></a>
+			</p>
+			<p class="paragraph">In September 2017, ManaZeak was born as a graduation project, at <a href="https://www.esiea.fr/" target="_blank" rel="noreferrer noopener">ESIEA Paris</a> (a top French engineering school). By the end of this academic project in February 2018, we decided to make it a real open source project so ManaZeak could grow further. Several people were involved in the journey and helped us out on miscellaneous subjects.</p>
+			<p class="paragraph">Two years later, the projects architecture was a true limitation to any new feature. Maintainers then decided to switch the backend from <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer noopener">Django</a> to <a href="https://spring.io/projects/spring-boot" target="_blank" rel="noreferrer noopener">Spring boot</a>, to answer those scalability issues. This rework is currently in progress and promises a few great improvements, while stepping up the codebase bedrock.</p>
+			<p class="paragraph">Because we want to provide the best software we can, we use several tools to perform routines that ensure the app meets our quality standards. Use the following cards to check the different services we use as our continuous integration workflow. Also, if you want to know what's coming next in ManaZeak, check out the YouTrack/Trello dashboards that lists all the upcoming features.</p><br>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-two">
+			<div class="ci">
+				<a href="https://github.com/ManaZeak/ManaZeak/actions" target="_blank" rel="noreferrer noopener"><img src="./img/github-logo.png" alt="GithubActions"></a>
 			</div>
-		</div>			
-		<div class="row">
-			<div class="col-three">
-				<div class="maintainer">
-					<a href="https://github.com/ArthurBeaulieu" target="_blank"><img src="https://avatars2.githubusercontent.com/u/24597000?s=460&v=4" alt="ArthurBeaulieu"></a>
-					<div class="maintainer-info">					
-						<p><strong>Arthur Beaulieu</strong> – Maintainer<br>aka <em>Messmaker</em></p>
-						<p>Frontend developer</p>	
-						<p><a href="mailto:arthur.beaulieu@manazeak.org" style="text-decoration:none;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;<em>arthur.beaulieu@manazeak.org</em></a></p>
-					</div>
-				</div>		
+		</div>
+		<div class="col-two">
+			<div class="ci">
+				<a href="https://sonarcloud.io/dashboard?id=ManaZeak" target="_blank" rel="noreferrer noopener"><img src="./img/sonarqube-logo.png" alt="SonarQube"></a>
 			</div>
-			<div class="col-three">
-				<div class="maintainer">
-					<a href="https://github.com/Squadella" target="_blank"><img src="https://avatars3.githubusercontent.com/u/10008695?s=400&v=4" alt="SquadeSauce"></a>
-					<div class="maintainer-info">					
-						<p><strong>Pierre Bouniol</strong> – Maintainer<br>aka <em>Squadella</em></p>
-						<p>Backend developer</p>	
-						<p><a href="mailto:pierre.bouniol@manazeak.org" style="text-decoration:none;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;<em>pierre.bouniol@manazeak.org</em></a></p>
-					</div>
-				</div>						
+		</div>
+		<div class="col-two">
+			<div class="ci">
+				<a href="https://manazeak.myjetbrains.com" target="_blank" rel="noreferrer noopener"><img src="./img/you-track.png" alt="YouTrack"></a>
 			</div>
-		</div>	
-		<div class="row">
-			<div class="col-six">
-				<h3>Contributors</h3>
+		</div>
+		<div class="col-two">
+			<div class="ci">
+				<a href="https://trello.com/b/Qtl9Uxit/manazeak-project" target="_blank" rel="noreferrer noopener"><img src="./img/trello-logo.png" alt="Trello"></a>
 			</div>
-		</div>			
-		<div class="row" style="margin-bottom: 0;">
-			<div class="col-three">
-				<a href="https://github.com/Oxydiz" class="maintainer" target="_blank" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/9464446?s=400&v=4" alt="Valentin">
-					<div class="maintainer-info">					
-						<p><strong>Valentin Peiro</strong><br>aka <em>Oxydiz</em></p>
-						<p>Frontend developer</p>	
-					</div>
-				</a>	
-			</div>
-			<div class="col-three">
-				<a href="https://github.com/Belash" class="maintainer" target="_blank" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/10118583?s=400&v=4" alt="PB">
-					<div class="maintainer-info">					
-						<p><strong>Pierre-Balthazar Donadieu de Lavit</strong><br>aka <em>Belash</em></p>
-						<p>Docker</p>	
-					</div>
-				</a>						
-			</div>
-			<div class="col-three">
-				<a href="https://github.com/Syncrossus" class="maintainer" target="_blank" style="text-decoration:none;"><img src="https://avatars2.githubusercontent.com/u/12431317?s=400&v=4" alt="Syncrossus">
-					<div class="maintainer-info">					
-						<p><strong>Guilhem Piat</strong><br>aka <em>Syncrossus</em></p>
-						<p>Scripting</p>
-					</div>
-				</a>						
-			</div>			
-		</div>	
-		<div class="row">
-			<div class="col-three">
-				<a href="https://github.com/avignat" class="maintainer" target="_blank" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/1545450?s=400&v=4" alt="Armand">
-					<div class="maintainer-info">					
-						<p><strong>Armand Vignat</strong><br>aka <em>p1rox</em></p>
-						<p>Docker</p>	
-					</div>
-				</a>
-			</div>
-			<div class="col-three">
-				<a href="http://www.dreamlandrollerrink.com/wp-content/uploads/2018/03/unicorncandyland.jpg" class="maintainer" target="_blank" style="text-decoration:none;"><img src="https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/14359127_10211222500417411_4345435229309712199_n.jpg?_nc_cat=108&_nc_ht=scontent-frt3-2.xx&oh=1b99ed9d6112f4aee0fbac3ebd245edf&oe=5D1CE3F4" alt="Laetitia">
-					<div class="maintainer-info">					
-						<p><strong>Laetitia Genin</strong><br>aka <em>Lopet</em></p>
-						<p>Graphical</p>	
-					</div>
-				</a>					
-			</div>
-			<div class="col-three">
-				<a href="https://github.com/Yoroitchi" class="maintainer" target="_blank" style="text-decoration:none;"><img src="https://avatars0.githubusercontent.com/u/17288981?s=400&v=4" alt="Yoro">
-					<div class="maintainer-info">					
-						<p><strong>Erwan Le Guern</strong><br>aka <em>Yoroïtchi</em></p>
-						<p>Comrade</p>	
-					</div>
-				</a>					
-			</div>			
-		</div>										
-		<footer>
-			<p><strong>Open Source Organization ManaZeak</strong></p>
-			<p><a href="mailto:support@manazeak.org" style="text-decoration:none;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;support@manazeak.org</a></p>
-			<p><a href="https://github.com/ManaZeak" style="text-decoration:none;" target="_blank"><i class="fab fa-github"></i>&nbsp;&nbsp;GitHub repositories</a></p>
-			<p>2017 – 2018</p>
-		</footer>
-	</body>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-six">
+			<p class="paragraph">To help you go through the installation process, you can consult the repository's <a href="https://github.com/ManaZeak/ManaZeak/wiki" target="_blank" rel="noreferrer noopener">wiki</a> to have a better understanding on how to manage a ManaZeak instance. If you wish to learn more about how ManaZeak is working, refer to the online <a href="https://manazeak.github.io/ManaZeak/doc/index.html" target="_blank" rel="noreferrer noopener">documentation</a>, that explains both the frontend and the backend code.</p>
+			<p class="paragraph">This project is open source, released with a GPL-3.0 license. It represents our vision of an online listening platform, but we might be missing some great ideas! Feel free to reach us using mail/DM, or open an issue with your feature request so we can fulfil it.</p>
+		</div>
+	</div>
+	<footer>
+		<p><strong>Open Source Organization ManaZeak</strong></p>
+		<p><a href="mailto:support@manazeak.org" style="text-decoration:none;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;support@manazeak.org</a></p>
+		<p><a href="https://github.com/ManaZeak" style="text-decoration:none;" target="_blank" rel="noreferrer noopener"><i class="fab fa-github"></i>&nbsp;&nbsp;GitHub repositories</a></p>
+		<p>2017 – 2021</p>
+	</footer>
+</body>
 </html>
