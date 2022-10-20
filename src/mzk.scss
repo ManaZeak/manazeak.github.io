@@ -164,6 +164,10 @@ section {
 
 /* Mobile rules (specific ones as style should be mobile first) */
 @media only screen and (max-width: 1080px) {
+  header {
+    padding: calc(var(--padding) * 2) calc(var(--padding) * 2) calc(var(--padding) * 2) calc(var(--padding) * 2 - 1rem);    
+  }
+
   section {
     padding: 0 5rem 0 4rem; /* Must substract scrollbar with 10px */
   }
