@@ -99,7 +99,7 @@ section {
   color: var(--anti-txt);
   font-size: 1.4rem;
   margin-bottom: var(--margin);
-  padding: 0 25%;
+  padding: 0 25% 0 calc(25% - 1rem); /* Scrollbar width adjustement */
   text-align: justify;
 
   h1, h3 {
@@ -162,3 +162,14 @@ section {
   }
 }
 
+/* Mobile rules (specific ones as style should be mobile first) */
+@media only screen and (max-width: 1080px) {
+  section {
+    padding: 0 5rem 0 4rem; /* Must substract scrollbar with 10px */
+  }
+
+  div.contributors-container {
+    grid-template-columns: repeat(auto-fill, 16rem);
+    justify-content: space-around;
+  }
+}
